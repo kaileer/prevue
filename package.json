@@ -1,0 +1,24 @@
+{
+  "name": "654654",
+  "version": "1.0.0",
+  "description": "这是一个预告片demo",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaileer/prevue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaileer/prevue/issues"
+  },
+  "homepage": "https://github.com/kaileer/prevue#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "koa": "^2.5.3"
+  }
+}
