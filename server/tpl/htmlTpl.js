@@ -9,7 +9,7 @@ module.exports = `
 		<div class="con">
 			<div class="row">
 				<div class="col-md-8">
-					<h1>wangtaokai</h1>
+					<h1>wangtaokai1212</h1>
 					<p>是个练习demo</p>
 				</div>
 			</div>
