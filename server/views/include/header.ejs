@@ -58,7 +58,9 @@
                     <li>
                         <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">学生管理</span> <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            
+                            <li <% if(page == 'student_list'){ %>class="active"<% } %>><a href="/student/list">学生清单</a></li>
+                            <li <% if(page == 'student_import'){ %>class="active"<% } %>><a href="/student/import">导入学生</a></li>
+                            <li <% if(page == 'student_export'){ %>class="active"<% } %>><a href="/student/export">生成学生密码</a></li>
                         </ul>
                     </li>
                 </ul>
